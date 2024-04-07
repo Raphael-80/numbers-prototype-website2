@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/event.css">
+    <title>Numbers Bukateria : Events</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="/html/index.html">
+                <img src="/img/logo.png" alt="logo">
+            </a>
+            <input type="checkbox" id="check" />
+            <label for="check" id="check-btn">
+                <i class="bx bx-menu"></i>
+            </label>
+            <ul>
+                <li>
+                    <a href="/html/index.html">Home</a>
+                </li>
+                <!-- <li>
+                    <a href="#service">Service</a>
+                </li> -->
+                <li>
+                    <a href="/html/about.html">About</a>
+                </li>
+                <!-- <li>
+                    <a href="#articles">Articles</a>
+                </li> -->
+                <li>
+                    <a href="/html/events.html">Events</a>
+                </li>
+                <li>
+                    <a href="/html/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="latest_news">
+        <h3>Latest News</h3>
+        <div class="service" id="service">
+            <div class="card">
+                <img src="/img/open-mic-night.jpeg" alt="">
+                <h3>Open Mic Night</h3>
+                <p>Unleash your inner star, seize the spotlight, and share your voice at our electrifying Open Mic
+                    Night this tuesday,
+                    where talent knows no bounds!</p>
+            </div>
+            <div class="card">
+                <img src="/img/cute2-naruto-jtmjd4ifiqi7a48s.jpg" alt="">
+                <h3>Anime Fest</h3>
+                <p>This month Celebrate anime culture at our vibrant Anime Fest, where cosplay, creativity, and
+                    community collide
+                    in epic excitement.</p>
+            </div>
+            <!-- <div class="card">
+                <img src="/img/fifa name.png" alt="">
+                <h3>FC 24 Tournament</h3>
+                <p>Experience soccer at its peak in our FC 24 Tournament, where passion, skill, and glory await on the
+                    field</p>
+            </div>
+            <div class="card">
+                <img src="/img/compressed_ba7be1d2c82dea7cd988789fa8575bd3.webp" alt="">
+                <h3>Love's Embrace</h3>
+                <p>Join us for a Valentine's Day extravaganza, where love is in the air, and every moment is a cherished
+                    memory in the making.</p>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="events_section">
+        <h3 class="title">Events</h3>
+        <div class="events-container">
+            <div class="event" data-name="p-5">
+                <img src="/img/cute2-naruto-jtmjd4ifiqi7a48s.jpg" alt="">
+                <h3>Anime Fest</h3>
+                <p>Enter a realm of imagination and wonder at our Anime Fest, where characters come alive and dreams
+                    take flight.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="event" data-name="p-1">
+                <img src="/img/cod name.jpg" alt="">
+                <h3>Call Of Duty Tournament</h3>
+                <p>Join the battle, showcase your skills, dominate the Call of Duty tournament for glory and epic
+                    prizes!</p>
+                <button>Learn More</button>
+            </div>
+            <div class="event" data-name="p-2">
+                <img src="/img/fifa name.png" alt="">
+                <h3>FIFA 24 Tournament</h3>
+                <p>Experience soccer at its peak in our FC 24 Tournament, where passion, skill, and glory await on the
+                    field.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="event" data-name="p-3">
+                <img src="/img/ff3.jpg" alt="">
+                <h3>Free Fire Tournament</h3>
+                <p>Engage in intense battles, ignite your passion, and compete for victory in our adrenaline-fueled Free
+                    Fire tournament of epic proportions.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="event" data-name="p-4">
+                <img src="/img/paintball.jpg" alt="">
+                <h3>Paintball Tournament</h3>
+                <p>Gear up for action-packed thrills in our Paintball tournament, where strategy, adrenaline, and
+                    camaraderie rule the battlefield.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="event" data-name="p-6">
+                <img src="/img/compressed_ba7be1d2c82dea7cd988789fa8575bd3.webp" alt="">
+                <h3>Valentine's Night</h3>
+                <p>Celebrate love's embrace with us on Valentine's Day, where romance flourishes and hearts unite in a
+                    tapestry of affection.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="event-preview">
+
+        <div class="preview" data-target="p-1">
+
+            <img src="/img/cod name.jpg" alt="">
+            <i id="icon-close" class="bx bx-close"></i>
+            <h3>Call Of Duty Tournament</h3>
+            <p>Join the battle, showcase your skills, dominate the Call of Duty tournament for glory and epic
+                prizes!</p>
+            <h4>Event Starts : Coming Soon </h4>
+
+        </div>
+        <div class="preview" data-target="p-2">
+            <i id="icon-close" class="bx bx-close"></i>
+            <img src="/img/fifa name.png" alt="">
+            <h3>FIFA 24 Tournament</h3>
+            <p>Experience soccer at its peak in our FC 24 Tournament, where passion, skill, and glory await on the
+                field.</p>
+            <h4>Event Starts : Coming Soon </h4>
+
+        </div>
+        <div class="preview" data-target="p-3">
+            <i id="icon-close" class="bx bx-close"></i>
+            <img src="/img/ff3.jpg" alt="">
+            <h3>Free Fire Tournament</h3>
+            <p>Engage in intense battles, ignite your passion, and compete for victory in our adrenaline-fueled Free
+                Fire tournament of epic proportions.</p>
+            <h4>Event Starts : Coming Soon </h4>
+
+        </div>
+        <div class="preview" data-target="p-4">
+            <i id="icon-close" class="bx bx-close"></i>
+            <img src="/img/paintball.jpg" alt="">
+            <h3>Paintball Tournament</h3>
+            <p>Gear up for action-packed thrills in our Paintball tournament, where strategy, adrenaline, and
+                camaraderie rule the battlefield.</p>
+            <h4>Event Starts : Coming Soon </h4>
+        </div>
+        <div class="preview" data-target="p-5">
+            <i id="icon-close" class="bx bx-close"></i>
+            <img src="/img/cute2-naruto-jtmjd4ifiqi7a48s.jpg" alt="">
+            <h3>Anime Fest</h3>
+            <p>Enter a realm of imagination and wonder at our Anime Fest, where characters come alive and dreams take
+                flight.</p>
+            <h4>Event Starts : Coming Soon </h4>
+        </div>
+        <div class="preview" data-target="p-6">
+            <i id="icon-close" class="bx bx-close"></i>
+            <img src="/img/compressed_ba7be1d2c82dea7cd988789fa8575bd3.webp" alt="">
+            <h3>Valentine's Day</h3>
+            <p>Celebrate love's embrace with us on Valentine's Day, where romance flourishes and hearts unite in a
+                tapestry of affection.</p>
+            <h4>Event Starts : Coming Soon </h4>
+        </div>
+    </div>
+
+    <!-- SPORTS SECTION -->
+    <div class="sports_section">
+        <h3 class="title">SPORTS</h3>
+        <div class="sports-container">
+            <div class="sport" data-name="p-1">
+                <img src="/img/TT.jpg" alt="">
+                <h3>Table Tennis</h3>
+                <p>Serve, spin, and smash your way to victory in our thrilling Table Tennis Games, where every point
+                    counts.
+                <p>
+                    <button>Learn More</button>
+            </div>
+            <div class="sport" data-name="p-2">
+                <img src="/img/4294.jpg" alt="">
+                <h3>FOOTBALL</h3>
+                <p>Score big and feel the adrenaline in our football games, where teamwork, tactics, and passion ignite
+                    the pitch.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="sport" data-name="p-3">
+                <img src="/img/shuttles-close-up_480x480.jpg" alt="">
+                <h3>BADMINTON</h3>
+                <p>Rally ands soar to triumph in ourexhilarating Badminton games, where agility, strategy, and
+                    sportsmanship shine.
+                <p>
+                    <button>Learn More</button>
+            </div>
+            <div class="sport" data-name="p-4">
+                <img src="/img/10-best-volleyballs-to-unleash-your-passion-for-the-game.jpg" alt="">
+                <h3>VOLLEYBALL</h3>
+                <p>Dive into the excitement, spike your way to triumph, and set the court ablaze in our thrilling
+                    Volleyball games.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="sport" data-name="p-5">
+                <img src="/img/290e9be4a0c1462111c82b07556fd881.jpg" alt="">
+                <h3>8 BALL POOL</h3>
+                <p>Rack 'em up, aim for glory, and sink the competition in our skillful 8 Ball Pool Games of precision
+                    and strategy.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="sport" data-name="p-6">
+                <img src="/img/chess.jpg" alt="">
+                <h3>BOARD GAMES</h3>
+                <p>Embark on a journey of fun and friendship in our list of Board Games, where laughther, competition,
+                    and memories await.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sport-preview">
+        <div class="preview2" data-target="p-1">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/TT.jpg" alt="">
+            <h3>Call Of Duty Tournament</h3>
+            <p>Serve, spin, and smash your way to victory in our thrilling Table Tennis Games, where every point counts.
+            <p>
+            <h4>Opens : 8am - 10pm everyday</h4>
+        </div>
+        <div class="preview2" data-target="p-2">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/4294.jpg" alt="">
+            <h3>FOOTBALL</h3>
+            <p>Score big and feel the adrenaline in our football games, where teamwork, tactics, and passion ignite the
+                pitch.</p>
+            <h4>Opens : 8am - 10pm everyday</h4>
+        </div>
+        <div class="preview2" data-target="p-3">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/shuttles-close-up_480x480.jpg" alt="">
+            <h3>BADMINTON</h3>
+            <p>Rally ands soar to triumph in ourexhilarating Badminton games, where agility, strategy, and sportsmanship
+                shine.
+            <p>
+            <h4>Opens : 8am - 10pm everyday</h4>
+        </div>
+        <div class="preview2" data-target="p-4">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/10-best-volleyballs-to-unleash-your-passion-for-the-game.jpg" alt="">
+            <h3>VOLLEYBALL</h3>
+            <p>Dive into the excitement, spike your way to triumph, and set the court ablaze in our thrilling Volleyball
+                games.</p>
+            <h4>Opens : 8am - 10pm everyday</h4>
+        </div>
+        <div class="preview2" data-target="p-5">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/290e9be4a0c1462111c82b07556fd881.jpg" alt="">
+            <h3>8 BALL POOL</h3>
+            <p>Rack 'em up, aim for glory, and sink the competition in our skillful 8 Ball Pool Games of precision and
+                strategy.</p>
+            <h4>Opens : Coming Soon </h4>
+        </div>
+        <div class="preview2" data-target="p-6">
+            <i id="icon-close" class="bx bx-close">X</i>
+            <img src="/img/chess.jpg" alt="">
+            <h3>BOARD GAMES</h3>
+            <p>Embark on a journey of fun and friendship in our list of Board Games, where laughther, competition, and
+                memories await.</p>
+            <h4>Opens : 8am - 10pm everyday</h4>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="d1">
+            <a href="/html/index.html">
+                <h1>Numbers</h1>
+            </a>
+            <p>
+                Where flavours dance, <br />
+                moments flourish, <br />
+                and every experience is a <br />
+                symphony of delight.
+            </p>
+            <div class="icon">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-tiktok"></i>
+            </div>
+        </div>
+
+        <div class="d1">
+            <a href="/html/contact.html">
+                <h1>Contact</h1>
+            </a>
+            <a href="#">Redemmer's University, Ede, Osun</a>
+            <a href="#">numbers@gmail.com</a>
+            <a href="#">www.numbers.com</a>
+        </div>
+
+        <div class="d1">
+            <a href="/html/gallery.html">
+                <h1 class="imgh1">Gallery</h1>
+            </a>
+            <img src="/img/logo.png" class="img" />
+            <img src="/img/screenshot2.png" class="img" />
+            <img src="/img/jollof2.jpg" class="img" /> <br />
+            <img src="/img/jollof5.jpeg" class="img" />
+            <img src="/img/jollof2.jpg" class="img" />
+            <img src="/img/jollof3.jpg" class="img" />
+        </div>
+    </div>
+    <div class="copyright">
+        <h1>
+            &copy; 2024 Numbers Bukateria || All Rights Reserved.
+        </h1>
+    </div>
+    <a href="#" class="top-arrow"><i class="bx bx-up-arrow-alt"></i></a>
+
+</body>
+<script src="/js/events.js"></script>
+
+</html>
